@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary pytroll removal steps
+# after package is uninstalled.
+#
+
+echo "pytroll has been uninstalled!"
+
+exit 0
