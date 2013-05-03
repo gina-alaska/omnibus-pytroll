@@ -18,7 +18,7 @@ dependency "zlib"
 dependency "ncurses"
 dependency "openssl"
 dependency "Python"
-#dependency "numpy"
+dependency "numpy"
 
 # version manifest file
 dependency "version-manifest"

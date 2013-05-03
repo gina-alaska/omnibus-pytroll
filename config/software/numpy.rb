@@ -8,8 +8,6 @@
 name "numpy"
 version "1.7.1"
 
-# dependency "zlib"
-# dependency "openssl"
 dependency "Python"
 
 source :url => "https://github.com/numpy/numpy/archive/v1.7.1.tar.gz",
@@ -24,7 +22,7 @@ env = {
 }
 
 build do
-  command [ "python", 
+  command [ "#{install_dir}/bin/python", 
             "setup.py", 
             "install", 
             "--prefix=#{install_dir}" ].join(" "), :env => env
