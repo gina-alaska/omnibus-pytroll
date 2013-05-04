@@ -21,6 +21,9 @@ dependency "Python"
 dependency "numpy"
 dependency "hdf5"
 dependency "h5py"
+dependency "freetype"
+dependency "libpng"
+dependency "matplotlib"
 
 # version manifest file
 dependency "version-manifest"
