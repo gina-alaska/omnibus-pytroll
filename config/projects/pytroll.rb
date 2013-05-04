@@ -19,6 +19,8 @@ dependency "ncurses"
 dependency "openssl"
 dependency "Python"
 dependency "numpy"
+dependency "hdf5"
+dependency "h5py"
 
 # version manifest file
 dependency "version-manifest"
