@@ -24,6 +24,9 @@ dependency "h5py"
 dependency "freetype"
 dependency "libpng"
 dependency "matplotlib"
+dependency "pil"
+dependency "geos"
+dependency "basemap"
 
 # version manifest file
 dependency "version-manifest"
