@@ -27,6 +27,8 @@ dependency "matplotlib"
 dependency "pil"
 dependency "geos"
 dependency "basemap"
+dependency "setuptools"
+dependency "mipp"
 
 # version manifest file
 dependency "version-manifest"
