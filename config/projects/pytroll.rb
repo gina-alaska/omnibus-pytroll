@@ -23,12 +23,17 @@ dependency "hdf5"
 dependency "h5py"
 dependency "freetype"
 dependency "libpng"
+dependency "libtiff"
+dependency "proj"
+dependency "libgeotiff"
 dependency "matplotlib"
 dependency "pil"
 dependency "geos"
 dependency "basemap"
 dependency "setuptools"
 dependency "mipp"
+dependency "pyresample"
+
 
 # version manifest file
 dependency "version-manifest"
