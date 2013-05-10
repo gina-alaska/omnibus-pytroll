@@ -33,7 +33,7 @@ dependency "basemap"
 dependency "setuptools"
 dependency "mipp"
 dependency "pyresample"
-
+dependency "mpop"
 
 # version manifest file
 dependency "version-manifest"
